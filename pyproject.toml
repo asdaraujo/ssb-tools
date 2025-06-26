@@ -1,0 +1,20 @@
+[project]
+name = "ssb-tools"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Andre Araujo", email = "araujo@cloudera.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0.2",
+    "requests>=2.32.4",
+]
+
+[project.scripts]
+ssb-tools = "ssb_tools:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

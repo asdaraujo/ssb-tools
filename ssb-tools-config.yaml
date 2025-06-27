@@ -1,0 +1,6 @@
+base_url:
+username:
+# We recommend not storing the password in this configuration file.
+# Instead, either set it through the SSB_PASSWORD env variable or leave it blank and provide the
+# password when prompted
+password:

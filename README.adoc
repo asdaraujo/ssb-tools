@@ -51,5 +51,5 @@ password:
 The `base_url` should point to the SQL Stream Builder API base endpoint, which is the endpoint exposed by the Knox service in a CDP cluster.
 
 If using SQL Stream Builder on Cloudera on cloud, you can obtain the endpoint URL in the *Endpoint* tab in your DataHub cluster page, as shown below:
-+
-image::docs/images/datahub-ssb-api-endpoint.png[width=400]
+
+image::docs/images/datahub-ssb-api-endpoint.png[width=800]
